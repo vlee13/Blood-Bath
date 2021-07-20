@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.fighters-container {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(209, 198, 198, 0.877);
+}
+
+.lycan-container div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.df-container div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.lycan-container, div, img {
+  height: 7vw
+}
+
+.df-container, div, img {
+  height: 7vw
+}
