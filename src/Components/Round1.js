@@ -32,6 +32,7 @@ const Round1 = () => {
           <h3>LYCAN Laser Eyes +1 STR</h3>
           <h3>LYCAN Fireball +1 STR</h3>
           <h3>LYCAN Shadow +1 STR</h3>
+          <h3>DF Top POV +1 STR</h3>
           <h2 style={{ textDecoration: "underline", color: "red" }}>
             Special Ability:
           </h2>
@@ -45,7 +46,7 @@ const Round1 = () => {
               OWNER: GLEPASTEUR |{" "}
               <span style={{ color: "red" }}>FIGHTER: DEAD FREAK #021</span>
             </h4>
-            <h3>FINAL STATS: 24 HP | 4 STR</h3>
+            <h3>FINAL STATS: 24 HP | 5 STR</h3>
           </div>
         </div>
       </div>
