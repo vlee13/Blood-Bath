@@ -34,7 +34,15 @@ const AllFighters = () => {
       <h1 className="blood-bath">🩸 BLOOD BATH 🩸</h1>
       <div className="fighters-container">
         <div className="lycan-container">
-          <h2 style={{ color: "red" }}>LYCANS</h2>
+          <h2
+            style={{
+              color: "red",
+              fontFamily: `"Permanent Marker", "cursive"`,
+              fontSize: "30px",
+            }}
+          >
+            LYCANS
+          </h2>
           <div>
             <img src={lycan18} alt="avatar" />
             <Link to="/round1">
@@ -133,7 +141,7 @@ const AllFighters = () => {
           </div> */}
         </div>
         <div>
-          <h2 style={{ marginBottom: "35px" }}>ROUNDS</h2>
+          <h2 style={{ margin: "45px auto" }}>ROUNDS</h2>
           <div>1</div>
           <div>2</div>
           <div>3</div>
@@ -152,7 +160,15 @@ const AllFighters = () => {
           <div>16</div> */}
         </div>
         <div className="df-container">
-          <h2 style={{ color: "red" }}>DEAD FREAKS</h2>
+          <h2
+            style={{
+              color: "red",
+              fontFamily: `"Permanent Marker", "cursive"`,
+              fontSize: "30px",
+            }}
+          >
+            DEAD FREAKS
+          </h2>
           <div>
             <Link to="/round1">
               <h3>GLEPASTEUR</h3>
