@@ -48,7 +48,8 @@
   background-image: url("./images/bloodbg.jpg");
   background-size: cover;
   background-position: top;
-  font-family: 'Permanent Marker', cursive;      
+  font-family: 'Permanent Marker', cursive;   
+  text-decoration: none!important
 }
 
 
@@ -83,6 +84,10 @@
 
 .df-container, div, img {
   height: 7vw
+}
+
+.lycan-container, div, h3 {
+  text-decoration: none!important;  
 }
 
 .rounds {
