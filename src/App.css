@@ -86,7 +86,7 @@
 
 .rounds {
   color: rgba(209, 198, 198, 0.877);
-  
+  height: 100vh
 }
 
 .round-container {
@@ -96,7 +96,7 @@
 }
 
 .round-container div img {
-  height: 27vw
+  height: 25vw
 }
 
 .round-lycanCard, .round-dfCard {
