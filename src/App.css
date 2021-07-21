@@ -38,7 +38,7 @@
 }
 
 .blood-bath {
-  color: white;
+  color: rgb(255, 0, 0);
   width: 100vw;
   height: 20vw;
   margin: 0;
@@ -48,8 +48,9 @@
   background-image: url("./images/bloodbg.jpg");
   background-size: cover;
   background-position: center;
- 
+  font-family: 'Permanent Marker', cursive;      
 }
+
 
 .fighters-container {
   display: flex;
