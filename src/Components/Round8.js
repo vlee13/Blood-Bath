@@ -33,7 +33,7 @@ const Round8 = () => {
           <h3>LYCAN Fireball +1 STR</h3>
           <h3>LYCAN Curse Mark +1 HP</h3>
           <h3>DF Shadow +1 STR</h3>
-          <h3>DF Muli-color Xeyes +1 HP</h3>
+          <h3>DF Dual-color X eyes +1 HP</h3>
           <h2 style={{ textDecoration: "underline", color: "red" }}>
             Special Ability:
           </h2>
