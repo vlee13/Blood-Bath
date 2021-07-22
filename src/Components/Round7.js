@@ -15,7 +15,7 @@ const Round7 = () => {
               OWNER: CH3XICAN |{" "}
               <span style={{ color: "red" }}>FIGHTER: LYCAN #14</span>
             </h4>
-            <h3>FINAL STATS: 27 HP | 5 STR</h3>
+            <h3>FINAL STATS: 28 HP | 5 STR</h3>
           </div>
         </div>
         <div style={{ width: "27vw" }}>
