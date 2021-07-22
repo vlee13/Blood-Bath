@@ -39,7 +39,8 @@ const AllFighters = () => {
             style={{
               color: "red",
               fontFamily: `"Permanent Marker", "cursive"`,
-              fontSize: "30px",
+              fontSize: "27px",
+              textDecoration: "underline",
             }}
           >
             LYCANS
@@ -169,7 +170,8 @@ const AllFighters = () => {
             style={{
               color: "red",
               fontFamily: `"Permanent Marker", "cursive"`,
-              fontSize: "30px",
+              fontSize: "27px",
+              textDecoration: "underline",
             }}
           >
             DEAD FREAKS
