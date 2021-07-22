@@ -26,6 +26,7 @@ import DF94 from "../images/DF94.gif";
 import DF99 from "../images/DF99.gif";
 import DFWARG from "../images/DFWARG.gif";
 import GLOW from "../images/GLOW.gif";
+import X from "../images/X.png";
 import { Link } from "react-router-dom";
 
 const AllFighters = () => {
@@ -54,12 +55,14 @@ const AllFighters = () => {
             <Link to="/round2">
               <h3>DEADTAPES</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN22} alt="avatar" />
             <Link to="/round3">
               <h3>BUYHIGH</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN20} alt="avatar" />
@@ -72,12 +75,14 @@ const AllFighters = () => {
             <Link to="/round5">
               <h3>ALB3RTKUO</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN34} alt="avatar" />
             <Link to="/round6">
               <h3>BEAN</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN14} alt="avatar" />
@@ -91,7 +96,7 @@ const AllFighters = () => {
               <h3>DEADJED</h3>
             </Link>
           </div>
-          {/* <div>
+          <div>
             <img src={LYCAN06} alt="avatar" />
             <Link to="/round9">
               <h3>UTZ</h3>
@@ -138,7 +143,7 @@ const AllFighters = () => {
             <Link to="/round16">
               <h3>FARMERJOE</h3>
             </Link>
-          </div> */}
+          </div>
         </div>
         <div>
           <h2 style={{ margin: "45px auto" }}>ROUNDS</h2>
@@ -150,14 +155,14 @@ const AllFighters = () => {
           <div>6</div>
           <div>7</div>
           <div>8</div>
-          {/* <div>9</div>
+          <div>9</div>
           <div>10</div>
           <div>11</div>
           <div>12</div>
           <div>13</div>
           <div>14</div>
           <div>15</div>
-          <div>16</div> */}
+          <div>16</div>
         </div>
         <div className="df-container">
           <h2
@@ -169,10 +174,12 @@ const AllFighters = () => {
           >
             DEAD FREAKS
           </h2>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round1">
               <h3>GLEPASTEUR</h3>
             </Link>
+
             <img src={DF21} alt="avatar" />
           </div>
           <div>
@@ -187,6 +194,7 @@ const AllFighters = () => {
             </Link>
             <img src={GLOW} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round4">
               <h3>SNKRZ93</h3>
@@ -205,19 +213,21 @@ const AllFighters = () => {
             </Link>
             <img src={DF33} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round7">
               <h3>RAINDROP</h3>
             </Link>
             <img src={DF87} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round8">
               <h3>JENNIFER</h3>
             </Link>
             <img src={DF94} alt="avatar" />
           </div>
-          {/* <div>
+          <div>
             <Link to="/round9">
               <h3>AGRO23</h3>
             </Link>
@@ -264,7 +274,7 @@ const AllFighters = () => {
               <h3>WOKE.GHOSTBABY</h3>
             </Link>
             <img src={GLOW} alt="avatar" />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

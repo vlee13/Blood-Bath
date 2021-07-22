@@ -25,7 +25,7 @@ const Round4 = () => {
             Base Stats:
           </h2>
           <h3>LYCAN: 26 HP | 5 STR</h3>
-          <h3>DEAD FREAK: 24 HP | 4 STR</h3>
+          <h3>GLOW UP: 25 HP | 5 STR</h3>
           <h2 style={{ textDecoration: "underline", color: "red" }}>
             Trait Power-ups:
           </h2>
