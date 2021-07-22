@@ -32,7 +32,7 @@ import { Link } from "react-router-dom";
 const AllFighters = () => {
   return (
     <div>
-      <h1 className="blood-bath">🩸 BLOOD BATH 🩸</h1>
+      <h1 className="blood-bath">🩸 BLOOD BATH</h1>
       <div className="fighters-container">
         <div className="lycan-container">
           <h2
