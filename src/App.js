@@ -17,6 +17,16 @@ import Round13 from "./Components/Round13";
 import Round14 from "./Components/Round14";
 import Round15 from "./Components/Round15";
 import Round16 from "./Components/Round16";
+import SZN2Main from "./Components/SZN2Main";
+import SZN2Round1 from "./Components/SZN2Round1";
+import SZN2Round2 from "./Components/SZN2Round2";
+import SZN2Round3 from "./Components/SZN2Round3";
+import SZN2Round4 from "./Components/SZN2Round4";
+import SZN2Round5 from "./Components/SZN2Round5";
+import SZN2Round6 from "./Components/SZN2Round6";
+import SZN2Round7 from "./Components/SZN2Round7";
+import SZN2Round8 from "./Components/SZN2Round8";
+import RoundDeets from "./Components/RoundDeets";
 
 function App() {
   return (
@@ -66,6 +76,52 @@ function App() {
           exact
           path="/round16"
           render={(props) => <Round16 {...props} />}
+        />
+        <Route exact path="/szn2" render={(props) => <SZN2Main {...props} />} />
+        <Route
+          exact
+          path="/szn2/:rounds"
+          render={(props) => <RoundDeets {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round1"
+          render={(props) => <SZN2Round1 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round2"
+          render={(props) => <SZN2Round2 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round3"
+          render={(props) => <SZN2Round3 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round4"
+          render={(props) => <SZN2Round4 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round5"
+          render={(props) => <SZN2Round5 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round6"
+          render={(props) => <SZN2Round6 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round7"
+          render={(props) => <SZN2Round7 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn2-round8"
+          render={(props) => <SZN2Round8 {...props} />}
         />
       </Switch>
     </div>

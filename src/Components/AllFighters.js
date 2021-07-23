@@ -108,18 +108,21 @@ const AllFighters = () => {
             <Link to="/round10">
               <h3>LYCANMORI</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN11} alt="avatar" />
             <Link to="/round11">
               <h3>FORGE</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN12} alt="avatar" />
             <Link to="/round12">
               <h3>SIDDLULLA</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN01} alt="avatar" />
@@ -138,6 +141,7 @@ const AllFighters = () => {
             <Link to="/round15">
               <h3>DEEPIKA</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCANKING} alt="avatar" />
@@ -229,6 +233,7 @@ const AllFighters = () => {
             </Link>
             <img src={DF94} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round9">
               <h3>AGRO23</h3>
@@ -253,12 +258,14 @@ const AllFighters = () => {
             </Link>
             <img src={DF81} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round13">
               <h3>ROVA</h3>
             </Link>
             <img src={GLOW} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round14">
               <h3>REBELSTARR888</h3>
@@ -271,6 +278,7 @@ const AllFighters = () => {
             </Link>
             <img src={GLOW} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/round16">
               <h3>WOKE.GHOSTBABY</h3>
