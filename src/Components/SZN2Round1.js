@@ -45,7 +45,7 @@ const EightFighters1 = () => {
           <div className="round-dfCard">
             <img src={DFWARG} alt="avatar" />
             <h4>
-              OWNER: GLEPASTEUR |{" "}
+              OWNER: BALLENTERPZ |{" "}
               <span style={{ color: "red" }}>FIGHTER: DEAD FREAK #021</span>
             </h4>
             <h3>FINAL STATS: 26 HP | 5 STR</h3>
