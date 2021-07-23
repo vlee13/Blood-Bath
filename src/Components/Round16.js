@@ -30,7 +30,7 @@ const Round16 = () => {
             Trait Power-ups:
           </h2>
           <h3>LYCAN Crown +2 STR</h3>
-          <h3>LYCAN Upside-down Cross Eye +1 HP</h3>
+          <h3>LYCAN Crazy Eye +1 HP</h3>
           <h3>LYCAN Fireball +1 STR</h3>
           <h2 style={{ textDecoration: "underline", color: "red" }}>
             Special Ability:

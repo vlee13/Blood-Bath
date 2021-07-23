@@ -21,6 +21,17 @@ const SZN2Main = () => {
   return (
     <div>
       <h1 className="blood-bath">🩸 BLOOD BATH</h1>
+      <div classname="szns">
+        <Link to="/">
+          <h2 className="szn1Link">SZN 1</h2>
+        </Link>
+        <Link to="/szn2">
+          <h2 className="szn2Link">SZN 2</h2>
+        </Link>
+        <Link to="/szn3">
+          <h2 className="szn3Link">SZN 3</h2>
+        </Link>
+      </div>
       <div className="fighters-container">
         <div className="lycan-container">
           <h2
@@ -174,14 +185,6 @@ const SZN2Main = () => {
             {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
         </div>
-      </div>
-      <div classname="szn2">
-        <Link to="/">
-          <h2 className="szn1Link">SZN 1</h2>
-        </Link>
-        <Link to="/szn2">
-          <h2 className="szn2Link">SZN 2</h2>
-        </Link>
       </div>
     </div>
   );

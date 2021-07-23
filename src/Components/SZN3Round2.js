@@ -1,21 +1,21 @@
 import React from "react";
+import LYCAN13 from "../images/LYCAN13.gif";
 import LYCANKING from "../images/LYCANKING.gif";
-import GLOW from "../images/GLOW.gif";
 
-const SZN2Round8 = () => {
+const SZN3Round2 = () => {
   return (
     <div className="rounds">
-      <h2>Round 16</h2>
+      <h2>Round 2</h2>
       <h1 style={{ color: "red", paddingBottom: "30px" }}>🥊FIGHT!!!🥊</h1>
       <div className="round-container">
         <div className="round-lycan">
           <div className="round-lycanCard">
-            <img src={LYCANKING} alt="avatar" />
+            <img src={LYCAN13} alt="avatar" />
             <h4>
-              OWNER: FARMERJOE |{" "}
-              <span style={{ color: "red" }}>FIGHTER: LYCAN KING</span>
+              OWNER: DEADJED |{" "}
+              <span style={{ color: "red" }}>FIGHTER: LYCAN #13</span>
             </h4>
-            <h3>FINAL STATS: 27 HP | 8 STR</h3>
+            <h3>FINAL STATS: 27 HP | 7 STR</h3>
           </div>
         </div>
         <div style={{ width: "27vw" }}>
@@ -25,27 +25,25 @@ const SZN2Round8 = () => {
             Base Stats:
           </h2>
           <h3>LYCAN: 26 HP | 5 STR</h3>
-          <h3>GLOW UP: 25 HP | 5 STR</h3>
           <h2 style={{ textDecoration: "underline", color: "red" }}>
             Trait Power-ups:
           </h2>
-          <h3>LYCAN Crown +2 STR</h3>
-          <h3>LYCAN Crazy Eye +1 HP</h3>
-          <h3>LYCAN Fireball +1 STR</h3>
-          <h2 style={{ textDecoration: "underline", color: "red" }}>
-            Special Ability:
-          </h2>
-          <h3>GLOW UP: 1 additional attack slot</h3>
+          <h3>JED Laser Eyes +1 STR</h3>
+          <h3>JED Fireball +1 STR</h3>
+          <h3>JED Curse Mark +1 HP</h3>
+          <h3>JOE Crazy Eye +1 HP</h3>
+          <h3>JOE Fireball +1 STR</h3>
+          <h3>JOE Crown +2 STR</h3>
         </div>
 
         <div className="round-df">
           <div className="round-dfCard">
-            <img src={GLOW} alt="avatar" />
+            <img src={LYCANKING} alt="avatar" />
             <h4>
-              OWNER: BENG |{" "}
-              <span style={{ color: "red" }}>FIGHTER: GLOW UP</span>
+              OWNER: FARMERJOE |{" "}
+              <span style={{ color: "red" }}>FIGHTER: DEAD FREAK #033</span>
             </h4>
-            <h3>FINAL STATS: 25 HP | 5 STR</h3>
+            <h3>FINAL STATS: 27 HP | 8 STR</h3>
           </div>
         </div>
       </div>
@@ -53,4 +51,4 @@ const SZN2Round8 = () => {
   );
 };
 
-export default SZN2Round8;
+export default SZN3Round2;

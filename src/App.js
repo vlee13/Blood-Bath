@@ -26,6 +26,11 @@ import SZN2Round5 from "./Components/SZN2Round5";
 import SZN2Round6 from "./Components/SZN2Round6";
 import SZN2Round7 from "./Components/SZN2Round7";
 import SZN2Round8 from "./Components/SZN2Round8";
+import SZN3Main from "./Components/SZN3Main";
+import SZN3Round1 from "./Components/SZN3Round1";
+import SZN3Round2 from "./Components/SZN3Round2";
+import SZN3Round3 from "./Components/SZN3Round3";
+import SZN3Round4 from "./Components/SZN3Round4";
 
 function App() {
   return (
@@ -116,6 +121,27 @@ function App() {
           exact
           path="/szn2-round8"
           render={(props) => <SZN2Round8 {...props} />}
+        />
+        <Route exact path="/szn3" render={(props) => <SZN3Main {...props} />} />
+        <Route
+          exact
+          path="/szn3-round1"
+          render={(props) => <SZN3Round1 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn3-round2"
+          render={(props) => <SZN3Round2 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn3-round3"
+          render={(props) => <SZN3Round3 {...props} />}
+        />
+        <Route
+          exact
+          path="/szn3-round4"
+          render={(props) => <SZN3Round4 {...props} />}
         />
       </Switch>
     </div>
