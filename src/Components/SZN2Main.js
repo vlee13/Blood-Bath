@@ -4,10 +4,17 @@ import lycan18 from "../images/lycan18.gif";
 import LYCAN20 from "../images/LYCAN20.gif";
 import LYCAN14 from "../images/LYCAN14.gif";
 import LYCAN13 from "../images/LYCAN13.gif";
+import LYCAN06 from "../images/LYCAN06.gif";
+import LYCAN01 from "../images/LYCAN01.gif";
+import LYCAN25 from "../images/LYCAN25.gif";
+import LYCANKING from "../images/LYCANKING.gif";
 import DFWARG from "../images/DFWARG.gif";
 import GLOW from "../images/GLOW.gif";
 import DF92 from "../images/DF92.gif";
 import DF33 from "../images/DF33.gif";
+import DF77 from "../images/DF77.gif";
+import DF99 from "../images/DF99.gif";
+import DF21 from "../images/DF21.gif";
 import X from "../images/X.png";
 
 {
@@ -55,36 +62,36 @@ const SZN2Main = () => {
             </Link>
           </div>
           <div>
-            {/* <img src={LYCAN16} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={LYCAN06} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
             <Link to="/szn2-round5">
-              <h3>???</h3>
+              <h3>UTZ</h3>
             </Link>
           </div>
           <div>
-            {/* <img src={LYCAN34} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={LYCAN01} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
             <Link to="/szn2-round6">
-              <h3>???</h3>
+              <h3>YVKI</h3>
             </Link>
           </div>
           <div>
-            {/* <img src={LYCAN14} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={LYCAN25} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
             <Link to="/szn2-round7">
-              <h3>???</h3>
+              <h3>LIZARD</h3>
             </Link>
           </div>
           <div>
-            {/* <img src={LYCAN13} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={LYCANKING} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
             <Link to="/szn2-round8">
-              <h3>???</h3>
+              <h3>FARMERJOE</h3>
             </Link>
           </div>
         </div>
         <div>
-          <h2 style={{ margin: "45px auto" }}>ROUNDS</h2>
+          <h2 style={{ margin: "40px auto" }}>ROUNDS</h2>
           <div>1</div>
           <div>2</div>
           <div>3</div>
@@ -132,31 +139,31 @@ const SZN2Main = () => {
           </div>
           <div>
             <Link to="/szn2-round5">
-              <h3>???</h3>
+              <h3>YANK</h3>
             </Link>
-            {/* <img src={GLOW} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={DF77} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
           <div>
             <Link to="/szn2-round6">
-              <h3>???</h3>
+              <h3>NONNY</h3>
             </Link>
-            {/* <img src={DF33} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={DF99} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
           <div>
             <Link to="/szn2-round7">
-              <h3>???</h3>
+              <h3>BOSTONBOB</h3>
             </Link>
-            {/* <img src={DF87} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={DF21} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
           <div>
             <Link to="/szn2-round8">
-              <h3>???</h3>
+              <h3>BENG</h3>
             </Link>
-            {/* <img src={DF94} alt="avatar" /> */}
-            <img src={X} alt="lose" style={{ position: "absolute" }} />
+            <img src={GLOW} alt="avatar" />
+            {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import "./App.css";
 import AllFighters from "./Components/AllFighters";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import Round1 from "./Components/Round1";
 import Round2 from "./Components/Round2";
 import Round3 from "./Components/Round3";
@@ -26,7 +26,6 @@ import SZN2Round5 from "./Components/SZN2Round5";
 import SZN2Round6 from "./Components/SZN2Round6";
 import SZN2Round7 from "./Components/SZN2Round7";
 import SZN2Round8 from "./Components/SZN2Round8";
-import RoundDeets from "./Components/RoundDeets";
 
 function App() {
   return (
@@ -80,11 +79,6 @@ function App() {
         <Route exact path="/szn2" render={(props) => <SZN2Main {...props} />} />
         <Route
           exact
-          path="/szn2/:rounds"
-          render={(props) => <RoundDeets {...props} />}
-        />
-        <Route
-          exact
           path="/szn2-round1"
           render={(props) => <SZN2Round1 {...props} />}
         />
@@ -124,6 +118,14 @@ function App() {
           render={(props) => <SZN2Round8 {...props} />}
         />
       </Switch>
+      <div classname="szn2">
+        <Link to="/">
+          <h2 className="szn1Link">SZN 1</h2>
+        </Link>
+        <Link to="/szn2">
+          <h2 className="szn2Link">SZN 2</h2>
+        </Link>
+      </div>
     </div>
   );
 }

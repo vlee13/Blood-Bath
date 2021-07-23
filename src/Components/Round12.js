@@ -44,7 +44,7 @@ const Round12 = () => {
             <img src={DF81} alt="avatar" />
             <h4>
               OWNER: BOSTONBOB |{" "}
-              <span style={{ color: "red" }}>FIGHTER: DEAD FREAK #021</span>
+              <span style={{ color: "red" }}>FIGHTER: DEAD FREAK #081</span>
             </h4>
             <h3>FINAL STATS: 25 HP | 5 STR</h3>
           </div>

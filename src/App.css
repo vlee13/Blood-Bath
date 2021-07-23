@@ -120,3 +120,17 @@ a {
   text-decoration: none;
   color: red
 }
+
+.szn1Link {
+  color: rgba(209, 198, 198, 0.877);
+  right: 50px;
+  top: 50px;
+  position: absolute
+}
+
+
+.szn2Link {
+  color: rgba(209, 198, 198, 0.877);
+  right: 50px;
+  position: absolute
+}
