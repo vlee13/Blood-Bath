@@ -64,7 +64,7 @@ const SZN3Main = () => {
           </div>
         </div>
         <div>
-          <h2 style={{ margin: "40px auto" }}>ROUNDS</h2>
+          <h2 style={{ margin: "35px auto" }}>ROUNDS</h2>
           <div>1</div>
           <div>2</div>
           <div>3</div>
