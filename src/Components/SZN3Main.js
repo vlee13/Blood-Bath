@@ -37,7 +37,6 @@ const SZN3Main = () => {
           >
             LYCANS
           </h2>
-
           <div>
             <img src={LYCAN14} alt="avatar" />
             <Link to="/szn3-round1">
@@ -80,9 +79,8 @@ const SZN3Main = () => {
               textDecoration: "underline",
             }}
           >
-            DEAD FREAKS
+            CHALLENGERS
           </h2>
-
           <div>
             <Link to="/szn3-round1">
               <h3>UTZ</h3>
