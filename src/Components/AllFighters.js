@@ -41,7 +41,7 @@ const AllFighters = () => {
           <h2 className="szn2Link">SZN 2</h2>
         </Link>
         <Link to="/szn3">
-          <h2 className="szn3Link">SZN 3</h2>
+          <h2 className="szn3Link">SEMI-FINAL</h2>
         </Link>
       </div>
       <div className="fighters-container">
@@ -298,7 +298,6 @@ const AllFighters = () => {
           </div>
         </div>
       </div>
- 
     </div>
   );
 };
