@@ -14,7 +14,7 @@ import DF92 from "../images/DF92.gif";
 import DF33 from "../images/DF33.gif";
 import DF77 from "../images/DF77.gif";
 import DF99 from "../images/DF99.gif";
-import DF21 from "../images/DF21.gif";
+import DF81 from "../images/DF81.gif";
 import X from "../images/X.png";
 
 {
@@ -155,7 +155,7 @@ const SZN2Main = () => {
             <Link to="/szn2-round7">
               <h3>BOSTONBOB</h3>
             </Link>
-            <img src={DF21} alt="avatar" />
+            <img src={DF81} alt="avatar" />
             {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
           <div>
@@ -166,6 +166,14 @@ const SZN2Main = () => {
             {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
         </div>
+      </div>
+      <div classname="szn2">
+        <Link to="/">
+          <h2 className="szn1Link">SZN 1</h2>
+        </Link>
+        <Link to="/szn2">
+          <h2 className="szn2Link">SZN 2</h2>
+        </Link>
       </div>
     </div>
   );

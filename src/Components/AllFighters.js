@@ -287,6 +287,14 @@ const AllFighters = () => {
           </div>
         </div>
       </div>
+      <div classname="szn2">
+        <Link to="/">
+          <h2 className="szn1Link">SZN 1</h2>
+        </Link>
+        <Link to="/szn2">
+          <h2 className="szn2Link">SZN 2</h2>
+        </Link>
+      </div>
     </div>
   );
 };
