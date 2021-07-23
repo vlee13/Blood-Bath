@@ -17,10 +17,6 @@ import DF99 from "../images/DF99.gif";
 import DF81 from "../images/DF81.gif";
 import X from "../images/X.png";
 
-{
-  /* <img src={X} alt="lose" style={{ position: "absolute" }} /> */
-}
-
 const SZN2Main = () => {
   return (
     <div>
@@ -48,6 +44,7 @@ const SZN2Main = () => {
             <Link to="/szn2-round2">
               <h3>DORTHFADER</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN14} alt="avatar" />
@@ -74,6 +71,7 @@ const SZN2Main = () => {
             <Link to="/szn2-round6">
               <h3>YVKI</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN25} alt="avatar" />
@@ -112,6 +110,7 @@ const SZN2Main = () => {
           >
             DEAD FREAKS
           </h2>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/szn2-round1">
               <h3>BALLENTERPZ</h3>
@@ -124,6 +123,7 @@ const SZN2Main = () => {
             </Link>
             <img src={GLOW} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
 
           <div>
             <Link to="/szn2-round3">
@@ -131,12 +131,16 @@ const SZN2Main = () => {
             </Link>
             <img src={DF92} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
+
           <div>
             <Link to="/szn2-round4">
               <h3>BUFFALOSPACE</h3>
             </Link>
             <img src={DF33} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
+
           <div>
             <Link to="/szn2-round5">
               <h3>YANK</h3>
@@ -151,6 +155,8 @@ const SZN2Main = () => {
             <img src={DF99} alt="avatar" />
             {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
+
           <div>
             <Link to="/szn2-round7">
               <h3>BOSTONBOB</h3>
@@ -158,6 +164,8 @@ const SZN2Main = () => {
             <img src={DF81} alt="avatar" />
             {/* <img src={X} alt="lose" style={{ position: "absolute" }} /> */}
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
+
           <div>
             <Link to="/szn2-round8">
               <h3>BENG</h3>
