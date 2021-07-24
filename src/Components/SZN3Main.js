@@ -37,17 +37,21 @@ const SZN3Main = () => {
           >
             LYCANS
           </h2>
+
           <div>
             <img src={LYCAN14} alt="avatar" />
             <Link to="/szn3-round1">
               <h3>CH3XICAN</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
+
           <div>
             <img src={LYCAN13} alt="avatar" />
             <Link to="/szn3-round2">
               <h3>DEADJED</h3>
             </Link>
+            <img src={X} alt="lose" style={{ position: "absolute" }} />
           </div>
           <div>
             <img src={LYCAN25} alt="avatar" />
@@ -94,12 +98,14 @@ const SZN3Main = () => {
             </Link>
             <img src={LYCANKING} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/szn3-round3">
               <h3>MACNUTZ</h3>
             </Link>
             <img src={GLOW} alt="avatar" />
           </div>
+          <img src={X} alt="lose" style={{ position: "absolute" }} />
           <div>
             <Link to="/szn3-round4">
               <h3>NONNY</h3>
